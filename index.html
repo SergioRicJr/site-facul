@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>html5</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -24,10 +26,43 @@
             <h1>Seja bem-vindo!</h1>
             <p>Aqui você encontrará informações sobre o uso de HTML5 semântico para desenvolvedores</p>
         </section>
+
+        <section id="Sobre">
+            <h2> Sobre o HTML5 semântico</h2>
+            <p> O HTML5 semântico é uma evolução da linguagem HTML que permite aos desenvolvedores criarem estruturas
+                mais significativas e ricas em conteúdo para seys sites e aplicativos</p>
+        </section>
+
+        <section id="Linguagens">
+            <h2>Outras linguagens associadas</h2>
+            <ul>
+                <li>HiperText Markup Language - HTML</li>
+                <li>Cascading Style Sheet - CSS</li>
+                <li>JavaScript - JS</li>
+            </ul>
+        </section>
+
+        <section id="Contato">
+            <h2>Fale conosco!</h2>
+            <form>
+                <label  for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+                <label for="email" >E-mail:</label>
+                <input type="text" name="email" id="email">
+                <label for="mensagem" >Mensagem:</label>
+                <textarea name="mensagem" id="mensagem"> </textarea>
+                <div>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Desejo receber informações sobre HTML5 por e-mail</label>
+            </div>
+            <input id="button"type="submit" value="Enviar">
+            </form>
+        </section>
     </main>
 
     <footer>
         <p>Todos os direitos reservados - Site HTML5</p>
     </footer>
 </body>
+
 </html>

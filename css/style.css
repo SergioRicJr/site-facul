@@ -2,19 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
 }
 
 body{
     background-color: blueviolet;
+    background-image: url(../img/360_F_255924443_xnmyQh2iHdQKfY5o16mkIVjzJu1t6QDt.jpg);
+    background-size: 90%;
+    color: #fff;
 }
 
 header{
     padding: 10px;
     background-color: rgb(40,0,70);
     align-items: center;
+    box-shadow: 0px 10px 20px  rgb(245, 0, 143);   
+}
+header li{
+    transition:0,6ms;
 }
 
+header li:hover{
+    font-size: large;
+    cursor: pointer;
+
+}
 header ul{
     display: flex;
     flex-direction: row;
@@ -22,9 +33,28 @@ header ul{
     list-style: none;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-size: 100%;
+    background-image: linear-gradient(to right, rgba(20,0,30,0.5),rgba(40,0,70,0.5),rgba(20,0,30,0.5));
+}
+#Contato form{
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+}
+#Contato div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(40,0,70);
 }
+

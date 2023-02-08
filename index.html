@@ -13,10 +13,11 @@
     <header>
         <nav>
             <ul>
+                <li><img class="globo" src="img/logo-tag.png" alt=""></li>
                 <li>Inicio</li>
-                <li><a>Sobre</a></li>
-                <li><a>Linguagens</a></li>
-                <li><a>Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#linguagens">Linguagens</a></li>
+                <li><a href="#Contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -26,20 +27,30 @@
             <h1>Seja bem-vindo!</h1>
             <p>Aqui você encontrará informações sobre o uso de HTML5 semântico para desenvolvedores</p>
         </section>
-
+        <div id="sobre"></div>
         <section id="Sobre">
-            <h2> Sobre o HTML5 semântico</h2>
-            <p> O HTML5 semântico é uma evolução da linguagem HTML que permite aos desenvolvedores criarem estruturas
-                mais significativas e ricas em conteúdo para seys sites e aplicativos</p>
+            <h1> Sobre o HTML5 semântico</h1>
+            <div class="meio">
+                <div class="texto">
+                    <span> O HTML5 semântico é uma evolução da linguagem HTML que permite aos desenvolvedores criarem  estruturas
+                    mais significativas e ricas em conteúdo para seus sites e aplicativos.
+                </span></div>
+                <div class="musculo">
+                    <img src="img/pngwing.com.png" alt="" width="300px" height="300px">
+                </div>
+            </div>
         </section>
-
+        <div id="linguagens"></div>
         <section id="Linguagens">
-            <h2>Outras linguagens associadas</h2>
-            <ul>
-                <li>HiperText Markup Language - HTML</li>
-                <li>Cascading Style Sheet - CSS</li>
-                <li>JavaScript - JS</li>
-            </ul>
+            <h2>Outras ferramentas</h2>
+            <div>
+                <ul>
+                    <li>HiperText Markup Language - HTML</li>
+                    <li>Cascading Style Sheet - CSS</li>
+                    <li>JavaScript - JS</li>
+                </ul>
+                <img class="logo-ferramentas" src="img/logo-tag.png" alt="">
+            </div>
         </section>
 
         <section id="Contato">
@@ -55,7 +66,9 @@
                 <input type="checkbox" name="checkbox" id="checkbox">
                 <label for="checkbox">Desejo receber informações sobre HTML5 por e-mail</label>
             </div>
-            <input id="button"type="submit" value="Enviar">
+            <div class="enviar">
+                <input id="button"type="submit" value="Enviar">
+            </div>
             </form>
         </section>
     </main>
@@ -65,4 +78,4 @@
     </footer>
 </body>
 
-</html>
+</html>                                                      
